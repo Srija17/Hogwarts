@@ -1,0 +1,138 @@
+*
+{
+    box-sizing: border-box;
+}
+.v1
+{
+
+    position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
+	background-attachment: scroll;
+}
+.h1 {
+  font-weight: 700;
+  text-align: center;
+  font-size: 45px;
+  font-family:monospace;
+  font-family: 'Mate SC', serif;
+  text-transform: uppercase;
+  -webkit-text-stroke: 0.01px rgba(0, 0, 0, 0.808);
+  background: linear-gradient(90deg, rgb(228, 52, 52), #ca0000, rgb(209, 206, 3));
+  letter-spacing: 5px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: shine 5s linear infinite;
+  position: relative;
+}
+@keyframes shine {
+  0% {
+    background-position-x: -500%;
+  }
+  100% {
+    background-position-x: 500%;
+  }
+}
+div.h2
+{
+    margin-top: 5%;
+    font-size: 43px;
+    margin-left: 1%;
+    font-family: 'Mate SC', serif;
+    background: -webkit-linear-gradient(rgb(219, 4, 4), rgb(230, 245, 18));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
+div.h3
+{
+    color: rgb(179, 2, 2);
+    font-family: 'Mate SC', serif;
+    font-size: 45px;
+}
+b.b1
+{
+  font-family:'Mate SC', serif ;
+  font-size:45px;
+  background: -webkit-linear-gradient(rgb(3, 55, 199), rgb(5, 204, 105));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  padding: 20px;
+}
+p.p1
+{
+  text-align: center;
+  
+  font-family: 'Courgette', cursive;
+    font-size: 44px;
+  color: rgba(231, 11, 3, 0.938);
+}
+section.s2
+{
+  color: rgb(28, 6, 110);
+  font-size: 32px;
+  font-family: 'Courgette', cursive;
+}
+.img1{
+  position: relative;
+  animation: forwards;
+  width: 15%;
+  height: 9%;
+}
+.img2
+{
+    flex-direction: row;
+    flex-wrap: wrap;
+    float: right;
+    width: 20%;
+    height: 100%;
+    margin-top: 2.5%;
+    
+}
+section.s1, section.s2
+{
+    padding-left: 1%;
+    border-radius: 2px;
+    border: double 4px rgb(179, 182, 6);
+}
+hr.line{
+  border: 6px solid rgb(73, 0, 0);
+  border-radius: 5px;
+}
+.gif
+{
+  margin-left:2%;
+}
+audio{
+  display:none;
+}
+.f 
+{
+  margin-top: 3.5%;
+  margin-left: 2%;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  color: black;
+  -webkit-text-stroke: 0.3px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
